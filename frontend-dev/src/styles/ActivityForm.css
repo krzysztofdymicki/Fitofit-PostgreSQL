@@ -1,0 +1,16 @@
+#activity-form {
+  flex: 1;
+  min-width: 420px;
+  max-width: 720px;
+  height: 80%;
+  padding: 3em;
+  background-color: #e8e8e8;
+  border-radius: 1em;
+}
+
+#start-adress-label,
+#end-adress-label,
+#datepicker,
+#datepicker {
+  margin-top: 1em;
+}

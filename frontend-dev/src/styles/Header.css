@@ -1,0 +1,14 @@
+#header-container p {
+  display: inline-block;
+  margin-right: 5%;
+  align-items: center;
+}
+
+#header-container {
+  padding: 1em;
+  margin-top: 3em;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

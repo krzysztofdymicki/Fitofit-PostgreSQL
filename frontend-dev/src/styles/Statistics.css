@@ -1,0 +1,16 @@
+#statistics-container {
+  flex: 1;
+  min-width: 420px;
+  max-width: 720px;
+  height: 80%;
+  border-radius: 1em;
+  padding: 3em;
+  overflow: scroll;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#statistics-table {
+  margin-top: 1em;
+}

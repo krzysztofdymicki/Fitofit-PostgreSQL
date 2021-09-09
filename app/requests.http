@@ -1,0 +1,43 @@
+### SIGN UP ( CREATE A NEW USER )
+
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+  "username": "finalUser",
+  "password": "finalUser"
+}
+
+### SIGN IN
+
+POST http://localhost:3001/api/signin
+Content-Type: application/json
+
+{
+    "username": "finalUser",
+    "password": "finalUser"
+}
+
+### ADD NEW ACTIVITY
+
+POST http://localhost:3001/api/users/activities
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZpbmFsVXNlciIsImlkIjoyLCJpYXQiOjE2MzEwMjMwNzF9.1VEJbWLQ-AKFMVJwXEI4yV0XdK1IfHxcKewobDLQykg
+
+{
+    "start": "Warszawa",
+    "end": "Lublin",
+    "date": "December 17, 1995 03:24:00"
+}
+
+### GET ONE WEEK OF USER'S ACTIVITIES
+
+GET http://localhost:3001/api/users/activities/week
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZpbmFsVXNlciIsImlkIjoyLCJpYXQiOjE2MzEwMjMwNzF9.1VEJbWLQ-AKFMVJwXEI4yV0XdK1IfHxcKewobDLQykg
+
+### GET ONE MONTH OF USER'S ACTIVITIES
+
+GET http://localhost:3001/api/users/activities/month
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZpbmFsVXNlciIsImlkIjoyLCJpYXQiOjE2MzEwMjMwNzF9.1VEJbWLQ-AKFMVJwXEI4yV0XdK1IfHxcKewobDLQykg

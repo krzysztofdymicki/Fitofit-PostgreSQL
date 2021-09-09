@@ -1,5 +1,4 @@
 const { Pool } = require('pg')
-const { DATABASE_URL } = require('../utils/config')
 
 const pool = new Pool({
   connectionString:
